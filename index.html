@@ -21,22 +21,23 @@
         <label for="Firstname"></label>First Name
         <input
           required
+          minlength="5"
+          maxlength="8"
           type="text"
           id="Firstname"
           name="First Name"
-          id="firstname"
         />
         <br />
         <br />
-        <label for="Last Name"></label>
+        <label for="Last Name">Last name</label>
 
-        Last Name
         <input
           id="Last Name"
           required
+          minlength="5"
+          maxlength="10"
           type="text"
           name="Last Name"
-          id="lastname"
         />
         <br />
         <br />
@@ -47,7 +48,8 @@
           type="password"
           required
           name="Password"
-          id="Password"
+          minlength="5"
+          maxlength="10"
         />
         <br />
         <br />
@@ -56,9 +58,10 @@
           required
           id="Bio"
           name="Bio"
-          id="bio"
           cols="30"
           rows="10"
+          minlength="20"
+          maxlength="200"
         ></textarea>
         <br />
         <br />
@@ -68,22 +71,22 @@
         <fieldset>
           <legend>Gender</legend>
           <label for="Male"></label>
-          <input required type="radio" name="Gender" id="Male" /> Male <br />
+          <input required type="radio" name="Gender" id="Male" /> <br />
           <label for="Female"></label>
-          <input required type="radio" name="Gender" id="Female" /> Female
+          <input required type="radio" name="Gender" id="Female" />
           <br />
           <label for="Other"></label>
-          <input required type="radio" name="Gender" id="Other" /> Other <br />
+          <input required type="radio" name="Gender" id="Other" /> <br />
         </fieldset>
         <br />
         <fieldset>
           <legend>Interests</legend>
           <label for="Music"></label>
-          <input type="checkbox" name="hobby" id="Music" /> Music <br />
+          <input type="checkbox" name="hobby" id="Music" /> <br />
           <label for="Sports"></label>
-          <input type="checkbox" name="hobby" id="Sports" /> Sports <br />
+          <input type="checkbox" name="hobby" id="Sports" /> <br />
           <label for="Reading"></label>
-          <input type="checkbox" name="hobby" id="Reading" /> Reading <br />
+          <input type="checkbox" name="hobby" id="Reading" /> <br />
         </fieldset>
       </div>
       <br />
