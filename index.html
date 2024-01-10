@@ -20,23 +20,23 @@
       <div>
         <label for="Firstname">First Name</label>
         <input
+          placeholder="Your first Name"
           required
           type="text"
           id="Firstname"
           name="FirstName"
           minlength="3"
           maxlength="10"
-          id="firstname"
         />
         <br />
         <br />
-        <label for="Last Name">Last Name</label>
+        <label for="LastName">Last Name</label>
         <input
-          id="Last Name"
+          id="LastName"
+          placeholder="Your last name"
           required
           type="text"
           name="Last Name"
-          id="lastname"
           maxlength="10"
         />
         <br />
@@ -44,11 +44,11 @@
         <label for="password"> Password</label>
         <input
           required
+          placeholder="Enter your password"
           id="password"
           type="password"
           required
           name="Password"
-          id="Password"
           minlength="3"
           maxlength="8"
         />
@@ -56,6 +56,7 @@
         <br />
         <label for="bio"></label> Bio
         <textarea
+          placeholder="Tell breifly about yourself"
           required
           name="Bio"
           id="bio"
@@ -112,18 +113,40 @@
       <br />
       <br />
       <label for="Dateofbirth"></label>
-      Birthdate <input required type="date" name="Birthday" id="Dateofbirth" />
+      Birthdate
+      <input
+        placeholder="Your date of birth"
+        required
+        type="date"
+        name="Birthday"
+        id="Dateofbirth"
+      />
       <br />
       <br />
       <label for="EMAIL"></label>
-      Email<input required type="email" name="Email" id="EMAIL" /><br />
+      Email<input
+        required
+        placeholder="Enter your email"
+        type="email"
+        name="Email"
+        id="EMAIL"
+      /><br />
       <br />
       <label for="weburl"></label>
 
-      Website <input required type="url" name="Website" id="weburl" /><br />
+      Website
+      <input
+        placeholder="Website URL (If any)"
+        required
+        type="url"
+        name="Website"
+        id="weburl"
+      /><br />
       <br />
       <label for="Find"></label>
-      Search <input required type="search" name="Search" id="Find" /> <br />
+      Search
+      <input placeholder="" type="search" name="Search" id="Find" />
+      <br />
       <br />
 
       <input type="button" value="Submit" />
