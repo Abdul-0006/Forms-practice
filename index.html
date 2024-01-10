@@ -20,6 +20,7 @@
       <div>
         <label for="Firstname"></label>First Name
         <input
+          placeholder="Enter your first name"
           required
           minlength="5"
           maxlength="8"
@@ -32,6 +33,7 @@
         <label for="Last Name">Last name</label>
 
         <input
+          placeholder="Enter your last name"
           id="Last Name"
           required
           minlength="5"
@@ -43,6 +45,7 @@
         <br />
         <label for="password"> Password</label>
         <input
+          placeholder="enter your password"
           required
           id="password"
           type="password"
@@ -55,6 +58,7 @@
         <br />
         <label for="Bio"></label> Bio
         <textarea
+          placeholder="Tell about yourself"
           required
           id="Bio"
           name="Bio"
@@ -111,18 +115,37 @@
       <br />
       <br />
       <label for="Dateofbirth"></label>
-      Birthdate <input required type="date" name="Birthday" id="Dateofbirth" />
+      Birthdate
+      <input
+        placeholder="Date of Birth"
+        required
+        type="date"
+        name="Birthday"
+        id="Dateofbirth"
+      />
       <br />
       <br />
       <label for="EMAIL"></label>
-      Email<input required type="email" name="Email" id="EMAIL" /><br />
+      Email<input
+        placeholder="Enter your email"
+        required
+        type="email"
+        name="Email"
+        id="EMAIL"
+      /><br />
       <br />
       <label for="weburl"></label>
 
-      Website <input required type="url" name="Website" id="weburl" /><br />
+      Website
+      <input
+        placeholder="Website URL (If Any)"
+        type="url"
+        name="Website"
+        id="weburl"
+      /><br />
       <br />
       <label for="Find"></label>
-      Search <input required type="search" name="Search" id="Find" /> <br />
+      Search <input type="search" name="Search" id="Find" /> <br />
       <br />
 
       <input type="button" value="Submit" />
